@@ -1,0 +1,263 @@
+.body{
+    /* background-image: url(portfolio.jpg); */
+    background-color: black;
+    height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 45%;
+}
+.a{
+ 
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+text-align: center;
+font-size: 29px;
+font-family: 'Montserrat';
+    color: #fff;
+    border-color: #fff;
+ text-decoration: none;
+    border-style: solid;
+    border-radius: 50px;
+}
+
+.b{
+    margin-left: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+
+font-size: 29px;
+
+    color: #fff;
+    border-color: #fff;
+ text-decoration: none;
+    border-style: solid;
+    border-radius: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.c{
+   align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+
+font-size: 29px;
+
+    color: #fff;
+    border-color: #fff;
+ text-decoration: none;
+    border-style: solid;
+    border-radius: 50px;
+
+}
+.d{
+  
+    padding-left: 30px;
+    padding-right: 30px; 
+    font-family: 'Montserrat';
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+font-size: 29px;
+font-family: 'Montserrat';
+    color: #fff;
+    border-color: #fff;
+ text-decoration: none;
+    border-style: solid;
+    border-radius: 50px;
+}
+.e{
+  
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+ 
+font-size: 29px;
+font-family: 'Montserrat';
+    color: #fff;
+    border-color: #fff;
+ text-decoration: none;
+    border-style: solid;
+    border-radius: 50px;
+}
+
+.a:hover{
+    background-color: #fff;
+    color: black;
+}
+.b:hover{
+    background-color: #fff;
+    color: black;
+}
+.c:hover{
+    background-color: #fff;
+    color: black;
+}
+.d:hover{
+    background-color: #fff;
+    color: black;
+}
+.e:hover{
+    background-color: #fff;
+    color:  black;
+}
+.body1{
+    background-color: black;
+}
+.d1{
+    display: flex;
+}
+.a1{
+    color: #fff;
+    border: solid #fff;
+    border-radius: 22px;
+    padding: 5px 20px  ;
+    text-align: center;
+    width: 5%;
+    border-width: 2px;
+}
+
+.h1{
+    color: #fff;
+    margin-top:  100px;
+    float: left;
+
+} 
+.P1{
+    color: grey;
+    margin-top:  150px;
+
+}
+.P2{
+    color: hsla(0, 0%, 100%, 0.4);
+    
+}
+
+.abc{
+    display: flex;
+   
+    /* justify-content: space-evenly; */
+
+}
+
+.d2{
+    width: 50%;
+    /* float: left; */
+    /* margin-top:  160px; */
+}
+img{
+    width: 50%;
+}
+.d3{
+    width: 50%;
+    /* float: left; */
+    /* margin-top:  100px; */
+}
+.S{
+    color: #fff;
+    /* margin-top: 100px; */
+    /* padding-top: 400px; */
+
+}
+.i{
+     /* width: 20%; */
+    /* float: left;
+    margin-left: 10%;
+    margin-top: 2%; */ 
+    width: 50px;
+    height: 50px;
+}
+
+.d4{
+   
+     display: flex; 
+    justify-content: center; 
+    gap: 20px;
+    
+}
+
+/* .j{
+    width: 5%;
+    float: left;
+    margin-left: 32.5%;
+    margin-top: 2%;
+}  */
+/* 
+.d4{
+    display: flex;
+} */
+.hr1{
+    width:10%;
+    float: left;
+}
+.ione{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+}
+
+.wrapper{
+    display: flex;
+  }
+  .wrapper .static-txt{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 25px;
+  }
+  .wrapper .dynamic-txts{
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+  }
+  .dynamic-txts li{
+    list-style: none;
+    color: #FC6D6D;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+  @keyframes slide {
+    100%{
+      top: -360px;
+    }
+  }
+  .dynamic-txts li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+  }
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-left: 3px solid #FC6D6D;
+    animation: typing 3s steps(10) infinite;
+  }
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
